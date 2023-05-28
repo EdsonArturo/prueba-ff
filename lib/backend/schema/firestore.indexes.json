@@ -1,0 +1,60 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Pelicula",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "top5",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Calificacion",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Pelicula",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "estreno",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "FechaEstreno",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Resena",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id_Pelicula",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "id_Usuario",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Pelicula",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "proximamente",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Nombre",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
